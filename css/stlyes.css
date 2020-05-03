@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1;
+}
+body {
+    max-width: 1200px;
+    overflow-y: scroll;  
+}
+html {
+    height: 100%;
+    max-width: 1100px;
+}
+hr {
+    margin-top: 0.5rem;
+    margin-right: 10rem;
+}
+h1 {
+    position: relative;
+    bottom: -2rem;
+    font-size: 1.3rem;
+    color: white;
+    padding: 0.9rem 14rem;
+}
+h3 {
+    position: relative;
+    bottom: -1.6rem;
+    font-size: 1rem;
+    color: white;
+    margin-top: 4px;
+    padding: 0 14rem;
+    width: 44%;
+}
+span {
+    margin-left: 11rem;
+    font-size: 1.1rem;
+}
+
+/* LESS AND THEN */
+.less::after {
+    content: '\003C';
+}
+.then::before {
+    content: '\003E';
+}
+.less {
+    position: absolute;
+    color:black;
+    font-size: 4.5rem;
+    top: 9.3rem;
+    left: 4rem;
+}
+.then  {
+    position: absolute;
+    color: black;
+    font-size: 4.5rem;
+    top: 9.3rem;
+    left: 85rem;
+}
+
+/* SCROLLBAR */
+.scroll {
+    overflow-x: scroll;
+    position: absolute;
+    top: 51.9rem;
+    left: 13rem;
+    width: 22%;
+    height: 4%;
+    background: scroll;
+}
+.scroll1 {
+    overflow-x: scroll;
+    width: 22%;
+    position: absolute;
+    top: 51.9rem;
+    left: 38.8rem;
+    height: 4;
+}
+.scroll2 {
+    position: absolute;
+    overflow-x: scroll;
+    width: 22%;
+    top: 51.9rem;
+    left: 62rem;
+    
+}
+
+/* HEADER AND NAVIGATION */
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.container img {
+    display: block;
+    margin-left: 15rem;
+}
+#navigation {
+    font-size: 0.8rem;
+    position: absolute;
+    top: 5%;
+    left: 22rem;
+}
+#navigation ul {
+    padding: 0 1.3em 0 0;
+}
+#navigation ul li {
+    padding: 0.4rem;
+    display: inline;
+    text-decoration: none;
+}
+#navigation ul li:hover {
+    border-bottom: 4px solid red;
+}
+#navigation ul li {
+    list-style: none;
+}
+
+/* SEARCH BAR */
+.serach {
+    position: absolute;
+    top: 4%;
+    left: 45%;
+}
+input {
+    display: table-cell;
+    position: relative;
+    border: 2px solid #D0D4D7;
+    height: 24px;
+    width: 270px;
+    border-radius: 50px;
+    padding: 0px 10px;
+    left: -9%;
+    right: 90%;
+    top: -350%;
+    background: #D0D4D7;
+}
+.serach img {
+    position: absolute;
+    width: 7%;
+    left: 77%;
+    margin-top: -11px;
+    border-radius: 44px;
+    transform: translate(66%, 77%);
+}
+
+/* MAIN */
+#main {
+    position: absolute;
+    background: url('../img/more.jpg') no-repeat;
+    background-size: 100% 100%;
+    height: 55%;
+    width: 95%;
+    margin-left: 2rem;
+    top: 10%;
+}
+pre {
+    color: white;
+    padding: 2rem 12.4rem;
+    font-size: 0.9rem;    
+}
+
+input[type="button"] {
+    position: relative;
+    padding-right: 190px;
+    background: #F1B914;
+    color: white;
+    border: none;
+    width: 10%;
+}
+.button {
+    position: absolute;
+    top: 18rem;
+    padding-left: 248px;
+}
+.img1 {
+    position: absolute;
+    transform: translate(-200%);
+    height: 90%;
+}
+
+/* CONTEXT */
+.naslov {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #A1A5AB;   
+    padding-left: 13rem;
+    padding-top: 8.8rem;
+}
+.flex-container {
+    display: flex;
+    flex: 1;
+}
+.flex-container .column {
+    justify-content: space-around;
+    color: #96979C;
+    margin: 1rem;
+    margin-right: 1rem;
+    padding: 20px;
+    padding-left: 1rem;
+    font-size: 30px;
+}
+.flex-container .raketa {
+    margin-left: 12rem;
+}
+.flex-container .termo {
+        margin-left: -29rem;
+}
+.flex-container .lice {
+        margin-left: -18rem;
+}
+.flex-container p {
+    padding-left: 11rem;
+    color: #96979C;
+}
+.flex-container .rackets {
+    color: #96979C;
+    font-size: 2rem;
+    margin-bottom: 1.4rem;
+    margin-left: 11rem; 
+}
+.flex-container .rackets1 {
+    font-size: 0.7rem;
+    width: 120%;
+}
+.flex-container .termo {
+    margin-left: 7rem;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    height: 3rem;
+}
+.flex-container .termos {
+    font-size: 2rem;
+    margin-left: 6rem;
+    margin-bottom: 0.5rem;
+}
+.flex-container .termos1 {
+    font-size: 0.7rem;
+    margin-left: -5rem;
+    margin-bottom: 0.6rem;
+    width: 120%;
+}
+.flex-container .lice {
+    margin-left: 0.1rem;
+    height: 3.5rem;
+}
+.flex-container .face {
+    font-size: 2rem;
+    margin-left: -1rem;
+    margin-bottom: 1rem;
+}
+.flex-container .face1 {
+    font-size: 0.7rem;
+    margin-top: -0.5rem;
+    margin-left: -12rem;
+    width: 120%;
+}
